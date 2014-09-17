@@ -21,8 +21,12 @@ function moveDeRegister(o){
 	delete keys[o];
 }
 
-function alertMe(p){
-	alert(p);
+function touchRegister(touch){
+	keys[touch] = true
+}
+
+function touchDeRegister(touch){
+	delete keys[touch];
 }
 
 /*#### SETTING UP INDIVIDUALS ####*/
