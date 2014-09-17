@@ -2,3 +2,14 @@ canvas{
 	border: 1px solid black;
 	background: "#bcbcbc";
 }
+div{
+	background: "red";
+	border: 1px solid black;
+	width: 200px;
+}
+button{
+	width: 60px;
+	height : 30px;
+	text-align: center;
+
+}

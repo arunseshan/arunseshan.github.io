@@ -5,10 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>
 </head>
 <body>	
-	<canvas id='canvas' width="500" height="400"></canvas>
-	<script type="text/javascript" src="Scripts/app1.js"></script>
-	<p> You are the blue cube and you got to catch the red one!!</p>
-	<p> You can keep playing it till you run out of RAM or time<br> </p>
+	<canvas id='canvas' width="500" height="400"></canvas><br/>
+	<button id='up' onmousedown="moveRegister(this.id)" onmouseup="moveDeRegister(this.id)" value="up">up</button>
+	<button id='down' onmousedown="moveRegister(this.id)" onmouseup="moveDeRegister(this.id)" value="up">down</button>
+	<button id='left' onmousedown="moveRegister(this.id)" onmouseup="moveDeRegister(this.id)" value="up">left</button>
+	<button id='right' onmousedown="moveRegister(this.id)" onmouseup="moveDeRegister(this.id)" value="up">right</button>
 
+	<script type="text/javascript" src="Scripts/app1.js"></script>
 </body>
 </html>

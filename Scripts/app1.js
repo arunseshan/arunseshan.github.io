@@ -13,6 +13,13 @@ window.addEventListener('keyup', function(e){
 	delete keys[e.keyCode];
 }, false);
 
+function moveRegister(n){
+	keys[n] = true;
+}
+
+function moveDeRegister(o){
+	delete keys[o];
+}
 
 /*#### SETTING UP INDIVIDUALS ####*/
 var player = {
@@ -38,10 +45,10 @@ function game(){
 
 // the update function
 function update(){
-	if(keys[38]) player.y-=speed;
-	if(keys[40]) player.y+=speed; 
-	if(keys[37]) player.x-=speed; 
-	if(keys[39]) player.x+=speed; 
+	if(keys[38] || keys['up']) player.y-=speed;
+	if(keys[40] || keys['down']) player.y+=speed; 
+	if(keys[37] || keys['left']) player.x-=speed; 
+	if(keys[39] || keys['right']) player.x+=speed; 
 
 	if (player.x < 0) player.x = 0;
 	if (player.y < 0) player.y = 0;
