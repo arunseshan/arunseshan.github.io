@@ -13,3 +13,10 @@ button{
 	text-align: center;
 
 }
+body{
+	margin: auto;
+}
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
