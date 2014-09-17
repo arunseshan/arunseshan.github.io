@@ -21,6 +21,10 @@ function moveDeRegister(o){
 	delete keys[o];
 }
 
+function alertMe(p){
+	alert(p);
+}
+
 /*#### SETTING UP INDIVIDUALS ####*/
 var player = {
 	x : 10,
