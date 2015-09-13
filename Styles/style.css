@@ -2,7 +2,7 @@ canvas{
 	border: 1px solid black;
 	background: "#bcbcbc";
 }
-div{
+div .console{
 	background: "red";
 	border: 1px solid black;
 	width: 200px;
