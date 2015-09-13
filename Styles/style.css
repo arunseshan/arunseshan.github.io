@@ -1,9 +1,10 @@
-#header{
+div#header{
 	margin:auto;
 	width:500px;
+	
 }
 
-#Message{
+div#Message{
 	margin:auto;
 	width:500px;
 }
