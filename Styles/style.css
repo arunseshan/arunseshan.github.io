@@ -1,28 +1,7 @@
-canvas{
-	border: 1px solid black;
-	background: "#bcbcbc";
-}
-div .console{
-	background: "red";
-	border: 1px solid black;
-	width: 200px;
-}
-button{
-	width: 100px;
-	height : 70px;
-	text-align: center;
-
-}
-body{
-	margin: auto;
-}
-html {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
+#header{
+	margin:auto;
 }
 
-div .menuButton{
-	width:100px;
-	height:50px;
-	background:"red";
+#Message{
+	margin:auto;
 }
